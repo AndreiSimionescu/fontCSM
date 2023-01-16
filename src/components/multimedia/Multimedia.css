@@ -1,0 +1,84 @@
+.pagina-multimedia {
+  background-image: url("../../images/multimedia.png");
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+}
+
+.multimedia-body {
+  height: 55%;
+  width: 100%;
+  border: 15px solid #2a52be;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.multimedia-head {
+  margin-bottom: 40px;
+}
+
+.galerie-foto {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 52px;
+  color: #2a52be;
+}
+
+.galerie-video {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 52px;
+  color: #2a52be;
+}
+
+.imagini {
+  width: 100%;
+  height: 75%;
+  border: 20px solid #2a52be;
+}
+.imagine {
+  width: 100%;
+  height: 100%;
+}
+
+.videouri {
+  width: 100%;
+  height: 75%;
+  border: 20px solid #2a52be;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}

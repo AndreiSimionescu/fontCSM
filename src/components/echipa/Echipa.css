@@ -1,0 +1,381 @@
+.pagina-echipa {
+  background-image: url("../../images/istorie.png");
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pagina-body {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+
+.pagina-body-content {
+  height: 94%;
+  width: 100%;
+  background-color: white;
+}
+
+.emblema {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 40px;
+  width: 10%;
+  height: 10%;
+}
+
+.pagina-body-titlu {
+  position: absolute;
+  top: 0;
+  left: 1;
+  font-family: "Archivo";
+  font-style: normal;
+  font-size: 50px;
+  line-height: 87px;
+  color: #ffffff;
+}
+
+.sticker {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pagina-body-top {
+  width: 100%;
+  height: 50%;
+}
+
+.imagine-echipa {
+  width: 100%;
+  height: 100%;
+}
+
+.pagina-body-bootom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row1-children {
+  width: 52%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.row1-children-1 {
+  width: 42%;
+  height: 100%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row1-children-2 {
+  width: 42%;
+  height: 100%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row2 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row2-children {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row2-children-1 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row2-children-2 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row2-children-3 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row3 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row3-children {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row3-children-1 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row3-children-2 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row3-children-3 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row4 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row4-children {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row4-children-1 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row4-children-2 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row4-children-3 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row5 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row5-children {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row5-children-1 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row5-children-2 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row5-children-3 {
+  width: 23%;
+  height: 68%;
+  background-color: #2a52be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.row6 {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row6-title {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 44px;
+  color: #2a52be;
+}

@@ -1,0 +1,84 @@
+.App {
+  height: 100vh;
+}
+
+.navbar {
+  width: 100%;
+  height: 15%;
+  background-color: #0f2557;
+  display: flex;
+  flex-direction: column;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  z-index: 999999;
+}
+
+.navbar-line {
+  width: 100%;
+  height: 20%;
+  background-color: #2a52be;
+}
+
+.navbar-content {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-head {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emblema {
+  height: 80%;
+  width: 100%;
+}
+
+.nav-label {
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+}
+
+.navbar-body {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-body-top {
+  width: 100%;
+  height: 70%;
+}
+
+.navbar-body-bootom {
+  width: 100%;
+  height: 30%;
+}
+
+.navbar-body-bootom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  font-family: "Archivo";
+  font-style: normal;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

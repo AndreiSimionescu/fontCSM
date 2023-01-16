@@ -1,0 +1,581 @@
+.App {
+  height: 100vh;
+}
+
+.acasa {
+  width: 100%;
+  height: 100%;
+}
+
+.pagina1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/imagine-acasa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pagina2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/background-pagina2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.meci-urmator-container {
+  width: 75%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.meci-urmator {
+  width: 100%;
+  height: 70%;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meci-urmator-date {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date {
+  width: 50%;
+  height: 50%;
+  font-family: "Quantico";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #2a52be;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.meci-urmator-time {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.meci-urmator-time-top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.meci-urmator-time-bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.meci-urmator-time-bottom-middle {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.div-time {
+  width: 25%;
+  height: 100%;
+  font-family: "Quantico";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 105.5%;
+  text-align: center;
+  color: #2a52be;
+}
+
+.meci-urmator-time-top-nume-echipa {
+  width: 30%;
+  height: 100%;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 44px;
+  color: #2a52be;
+}
+
+.meci-urmator-time-top-time {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.div {
+  width: 25%;
+  height: 100%;
+  background-color: #2a52be;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Quantico";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 105.5%;
+  /* or 42px */
+
+  color: #ffffff;
+}
+
+.emb1 {
+  margin-left: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.emb2 {
+  margin-right: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.meci-urmator-titlu {
+  width: 50%;
+  height: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 275px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lbl-titlu {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.urare {
+  width: 50%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 105.5%;
+  color: #ffffff;
+}
+
+.pagina3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/background-pagina2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagina4 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/background-pagina2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagina4-container {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pagina4-titlu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 13%;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 87px;
+  color: #ffffff;
+}
+
+.pagina4-clasament-container {
+  width: 100%;
+  height: 87%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pagina4-clasament-banner {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  background-color: #2a52be;
+}
+
+.pagina4-clasament-banner-echipa {
+  /*7 % inaltime*/
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.pagina4-clasament-banner-echipa-div {
+  width: 13%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container-second {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.container-line {
+  width: 100%;
+  height: 8.33%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.column1 {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  width: 13%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 39px;
+  color: #2a52be;
+}
+
+.div-column1-icon {
+  width: 15%;
+  height: 100%;
+}
+
+.div-column1-nume {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #2a52be;
+}
+
+.pagina5 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/background-pagina2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-pagina5 {
+  width: 92%;
+  height: 90%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+}
+
+.div1-container-pagina5 {
+  width: 100%;
+  height: 38%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.part-top-div1 {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  color: #2a52be;
+}
+
+.part-bottom-div1 {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sponsor {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2-container-pagina5 {
+  width: 100%;
+  height: 38%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.div2-children {
+  width: 38%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2a52be;
+}
+
+.div2-children2 {
+  width: 24%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.div2-children21 {
+  width: 100%;
+  height: 40%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.lbl1-children21 {
+  width: 100%;
+  height: 50%;
+  border: 1px solid black;
+}
+
+.lbl2-children21 {
+  width: 100%;
+  height: 50%;
+  border: 1px solid black;
+}
+
+.div2-children22 {
+  width: 100%;
+  height: 60%;
+  border: 1px solid black;
+}
+
+.div2-children-children1 {
+  width: 80%;
+  height: 30%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #f8f8f8;
+}
+
+.div2-children-children-icon {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.div2-children-children-children-icon {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.div2-children-children2 {
+  width: 80%;
+  height: 45%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #f8f8f8;
+}
+
+.div2-children-children3 {
+  width: 80%;
+  height: 25%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.div2-contact-children {
+  width: 80%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+}
+
+.div2-contact-img {
+  width: 20%;
+  height: 58%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2-contact-contact {
+  width: 30%;
+  height: 58%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Archivo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  color: #f8f8f8;
+}
+
+.div2-children-children-children-icon2 {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.div3-container-pagina5 {
+  width: 100%;
+  height: 14%;
+  border: 1px solid black;
+}
